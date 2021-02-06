@@ -1,0 +1,63 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vetur.format.defaultFormatter.html": "prettier",
+    "vetur.format.defaultFormatter.js": "prettier",
+    "vetur.format.defaultFormatter.less": "prettier",
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "printWidth": 160,
+            "singleQuote": true, // 使用单引号
+            "semi": true, // 末尾使用分号
+            "tabWidth": 4,
+            "arrowParens": "avoid",
+            "bracketSpacing": true,
+            "proseWrap": "preserve" // 代码超出是否要换行 preserve保留
+        }
+    },
+    "fileheader.customMade": {
+        "Author": "FisherX",
+        "Date": "Do not edit",
+        "LastEditTime": "Do not edit",
+        "LastEditors": "FisherX",
+        "Description": ""
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "explorer.confirmDelete": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "files.saveConflictResolution": "overwriteFileOnDisk",
+    "todo-tree.tree.showScanModeButton": false,
+    "cSpell.userWords": [
+        "alifd",
+        "antd",
+        "devfpy",
+        "echarts",
+        "gojs",
+        "lightgray",
+        "nodiot",
+        "usermenu",
+        "vuex"
+    ],
+    "js/ts.implicitProjectConfig.experimentalDecorators": true
+}
